@@ -1,0 +1,39 @@
+--2025-06-03 12:00:40--  https://astral.sh/uv/install.sh
+Resolving astral.sh (astral.sh)... 104.21.68.235, 172.67.200.58, 2606:4700:3036::6815:44eb, ...
+Connecting to astral.sh (astral.sh)|104.21.68.235|:443... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://github.com/astral-sh/uv/releases/latest/download/uv-installer.sh [following]
+--2025-06-03 12:00:41--  https://github.com/astral-sh/uv/releases/latest/download/uv-installer.sh
+Resolving github.com (github.com)... 20.205.243.166
+Connecting to github.com (github.com)|20.205.243.166|:443... connected.
+HTTP request sent, awaiting response... No data received.
+Retrying.
+
+--2025-06-03 12:02:12--  (try: 2)  https://github.com/astral-sh/uv/releases/latest/download/uv-installer.sh
+Connecting to github.com (github.com)|20.205.243.166|:443... failed: Connection timed out.
+Resolving github.com (github.com)... 20.205.243.166
+Connecting to github.com (github.com)|20.205.243.166|:443... failed: Connection timed out.
+Retrying.
+
+--2025-06-03 12:06:44--  (try: 3)  https://github.com/astral-sh/uv/releases/latest/download/uv-installer.sh
+Connecting to github.com (github.com)|20.205.243.166|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://github.com/astral-sh/uv/releases/download/0.7.9/uv-installer.sh [following]
+--2025-06-03 12:06:45--  https://github.com/astral-sh/uv/releases/download/0.7.9/uv-installer.sh
+Reusing existing connection to github.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://objects.githubusercontent.com/github-production-release-asset-2e65be/699532645/e9bf50e6-cf89-4955-8c8b-5b05470e77d2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250603T040645Z&X-Amz-Expires=300&X-Amz-Signature=879a9b8d30199335dd32cbbaa4f4aa8c44a2531a71f5ab682490bea85bb13233&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Duv-installer.sh&response-content-type=application%2Foctet-stream [following]
+--2025-06-03 12:06:46--  https://objects.githubusercontent.com/github-production-release-asset-2e65be/699532645/e9bf50e6-cf89-4955-8c8b-5b05470e77d2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20250603%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250603T040645Z&X-Amz-Expires=300&X-Amz-Signature=879a9b8d30199335dd32cbbaa4f4aa8c44a2531a71f5ab682490bea85bb13233&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Duv-installer.sh&response-content-type=application%2Foctet-stream
+Resolving objects.githubusercontent.com (objects.githubusercontent.com)... 185.199.109.133, 185.199.110.133, 185.199.108.133, ...
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.109.133|:443... failed: Connection timed out.
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.110.133|:443... failed: Connection timed out.
+Connecting to objects.githubusercontent.com (objects.githubusercontent.com)|185.199.108.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 63049 (62K) [application/octet-stream]
+Saving to: ‘install.sh’
+
+     0K .......... .......... .......... .......... .......... 81%  177K 0s
+    50K .......... .                                          100%  103K=0.4s
+
+2025-06-03 12:11:16 (156 KB/s) - ‘install.sh’ saved [63049/63049]
+
